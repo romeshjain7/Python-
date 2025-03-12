@@ -1,0 +1,15 @@
+def prime():
+    a=int(input('Enter a num'))
+    b=int(input("Enter last num"))
+    i=2
+    ind=0
+    for a in range(a,b):
+        if(a%i==0):
+            ind=1
+        i+=1
+    if ind==0:
+        print('prime')
+        print(a)
+    else:
+        print('not prime')
+prime()
