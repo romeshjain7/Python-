@@ -2,7 +2,7 @@
 # a=random.randint(600,900)
 
 class hdfc:
-    def __init__(selfw34):
+    def __init__(self):
         import random
         self.a=random.randint(500,900)
         # self.a=a
